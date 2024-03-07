@@ -1,0 +1,65 @@
+placeholder
+{
+    position: absolute;
+
+}
+#aviso,#titulo 
+{
+  display: block;
+  width: 400px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background-color: #7e2429;
+  padding-left:5px;
+  color: white;
+  border: none;
+  
+} 
+ .container 
+{
+   display: flex;
+}  
+.form-container 
+{
+    flex: 1;
+    
+}
+.checkbox-container 
+{
+    flex: 1;
+}
+.checkbox-group 
+{
+    flex: 1;
+    margin-bottom: 10px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.checkbox-group label 
+{
+    display: block;
+}
+#titulo
+{
+   height: 50px;
+} 
+#aviso
+{
+    height: 200px;
+     
+}
+label
+{
+    font: sans-serif;
+    font-size: 18px;
+}
+#botao
+{
+    border-radius: 12px;
+    background-color: #7e2429;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 60px;
+}
